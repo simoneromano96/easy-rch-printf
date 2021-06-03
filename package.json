@@ -1,0 +1,47 @@
+{
+  "name": "easy-rch-printf",
+  "version": "0.0.0",
+  "description": "RCH Printer integration",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --no-notify ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "lint": "eslint ./**/*.ts",
+    "check": "tsc --noEmit",
+    "test": "tap --ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoneromano96/easy-rch-printf.git"
+  },
+  "keywords": [
+    "rch",
+    "printf",
+    "fiscal",
+    "printer"
+  ],
+  "author": "Simone Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simoneromano96/easy-rch-printf/issues"
+  },
+  "homepage": "https://github.com/simoneromano96/easy-rch-printf#readme",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "node-nats-streaming": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/tap": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "tap": "^15.0.9",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2"
+  }
+}

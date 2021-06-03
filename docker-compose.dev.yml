@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  nats-streaming:
+    image: nats-streaming
+    ports: 
+      - 4222:4222
+      - 8223:8223
+    command: "-store file -dir /datastore"
+    volumes:
+      - nats-streaming_data:/datastore
+
+# networks: 
+
+volumes:
+  nats-streaming_data:
