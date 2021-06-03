@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/simoneromano96/easy-rch-printf#readme",
   "dependencies": {
-    "kafkajs": "^1.15.0",
-    "node-nats-streaming": "^0.3.2"
+    "got": "^11.8.2",
+    "nats": "^2.0.6"
   },
   "devDependencies": {
     "@types/tap": "^15.0.2",
