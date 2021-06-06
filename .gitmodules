@@ -1,0 +1,3 @@
+[submodule "easy-rch-printf-print-server"]
+	path = easy-rch-printf-print-server
+	url = https://github.com/simoneromano96/easy-rch-printf-print-server.git
